@@ -30,3 +30,4 @@ w_filename = 'result'
 with open(w_filename, 'w') as f:
     for line in res:
         f.write(f"{line}\n")
+        
